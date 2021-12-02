@@ -31,5 +31,18 @@ Here you need to do some things:
 3. Adjust retention if needed (default is 5 daily + 3 weekly + 2 monthly).
 4. Fill in your healthchecks.io key (or comment that section out, and hooks too).
 
-(TBC)
+```sh
+./setupssh.sh
+./firstrun.sh
+./backup.sh
+make install
+# Activate daily backups
+make activate
+```
+
+## Planned features
+
+(for requests, create an issue or drop me a note at m1kc@yandex.ru)
+
+* Let user choose image version
 

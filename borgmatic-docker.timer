@@ -1,0 +1,9 @@
+[Unit]
+Description=borgmatic-docker backup timer
+
+[Timer]
+Unit=borgmatic-docker.service
+OnCalendar=*-*-* 00:00:01
+
+[Install]
+WantedBy=timers.target
