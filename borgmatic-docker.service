@@ -4,3 +4,4 @@ Description=borgmatic-docker backup
 [Service]
 Type=oneshot
 ExecStart=/opt/borgmatic-docker/backup.sh
+WorkingDirectory=/opt/borgmatic-docker
