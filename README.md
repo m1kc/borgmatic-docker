@@ -44,5 +44,4 @@ make activate
 
 (for requests, create an issue or drop me a note at m1kc@yandex.ru)
 
-* Let user choose image version
-
+None yet

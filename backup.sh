@@ -10,6 +10,6 @@ docker run --rm \
 	-v /root/.cache/borg:/root/.cache/borg:rw \
 	-e TZ=$(cat config_timezone) \
 	--net=host \
-	b3vis/borgmatic:v1.1.17-1.5.18 \
+	$(cat config_docker_image) \
 	borgmatic -v1 --stats
 
